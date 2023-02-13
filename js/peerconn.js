@@ -6,7 +6,7 @@ const hangupButton = document.getElementById("hangup-btn");
 const localVideo = document.getElementById("local");
 const remoteVideo1 = document.getElementById("remote1");
 const remoteVideo2 = document.getElementById("remote2");
-
+let pc;
 let pc1Local;
 let pc1Remote;
 let pc2Local;
